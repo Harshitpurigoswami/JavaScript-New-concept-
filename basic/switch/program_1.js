@@ -1,7 +1,7 @@
-// var a = 'harshit';
-console.log("Harsiht");
-var a = prompt('please enter day');
+// Basic Switch Statement:
 
+console.log("Harsiht");
+var a = prompt('please enter day in lowercase');
 switch(a){
     case "sunday" : alert('Your day is ' + a);
     break;
