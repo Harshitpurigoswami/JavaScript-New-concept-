@@ -65,11 +65,11 @@ let arryResult;
 
 // entries
 
-arryResult = arry.entries();
+// arryResult = arry.entries();
 
-for(let x of arryResult){
-    console.log(x);
-}
+// for(let x of arryResult){
+//     console.log(x);
+// }
 
 // console.log(arry);
 // console.log(arryResult);
