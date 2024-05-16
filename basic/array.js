@@ -73,3 +73,32 @@ let arryResult;
 
 // console.log(arry);
 // console.log(arryResult);
+
+
+// Array with object and map method
+
+
+function map_fun(ele){
+    return ele.first_Name;
+}
+
+let obj = [
+    {
+        first_Name : 'harshit',
+        last_Name : 'puri',
+        working_Profestion: 'web designer',
+        age : 23,
+    },
+    {
+        first_Name : 'rachit',
+        last_Name : 'puri',
+        working_Profestion: 'Trading',
+        age : 21,
+    }
+]
+
+let obj_Copy = obj.map(map_fun);
+
+for(let ele in obj_Copy){
+    console.log(obj_Copy[ele])
+}

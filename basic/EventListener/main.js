@@ -5,6 +5,8 @@
 //     console.log(x , y );
 // })
 
-function mousemove_fun(ele){
-   console.log('harshit')
+function mousemove_fun(event){
+    let x =event.clientX;
+    let y = event.clientY
+    console.log(x , y );
 };
