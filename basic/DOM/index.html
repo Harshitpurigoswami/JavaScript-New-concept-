@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Modal</title>
+    <style>
+        html{
+            font-size: 6.25%;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            background: #525252;
+            padding: 40rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            transition: all 1s ease-in-out;
+            gap: 24rem;
+            overflow: hidden;
+        }
+        li{
+            padding: 20rem;
+            font-size: 18rem;
+            text-align: center; 
+            color: white;
+            background-color: black;
+            transition: all 0.9s ease-in-out; 
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        .ani{
+            background-color: red; 
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main" data-method="ok" class="mainClass">
+        <ul>
+            <li id="first_name" >Harshit Puri</li>
+            <li>Rachit Puri</li>
+            <li>Bharat Puri ji</li>
+            <li>Meena Puri ji</li>
+        </ul>
+    </div>
+    <button id="start" onclick="start_fun();">Start</button>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="traversal_method.js" type="text/javascript"></script>
+    <script src="animation.js" type="text/javascript"></script>
+</body>
+</html>
