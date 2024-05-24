@@ -20,11 +20,18 @@ newElement.appendChild(newText)
 // parentElement.insertAdjacentElement("afterbegin",newElement)
 // parentElement.insertAdjacentElement('beforeend',newElement)
 // parentElement.insertAdjacentElement('afterend',newElement)
-let full_html = "<li>Hy Harshit</li>";
+let full_html = "<ul><li>Hy Harshit</li></ul>";
 // parentElement.insertAdjacentHTML('afterbegin',full_html)
 // parentElement.insertAdjacentHTML('beforebegin',full_html)
 // parentElement.insertAdjacentHTML('beforeend',full_html)
 // parentElement.insertAdjacentHTML('afterend',full_html)
 // parentElement.insertAdjacentText('beforebegin','text')
-parentElement.insertAdjacentText('afterbegin',"dsfdfsdf")
+// parentElement.insertAdjacentText('afterbegin',"dsfdfsdf")
 console.log(newElement)
+
+
+// Revision
+
+parentElement.insertAdjacentElement('afterbegin',newElement)
+parentElement.insertAdjacentElement('beforeend',newElement)
+parentElement.insertAdjacentHTML('beforebegin',full_html)
