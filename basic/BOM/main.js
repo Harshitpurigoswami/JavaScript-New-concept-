@@ -104,7 +104,7 @@
         console.clear() ;
         let x = ele.offsetX;
         let y = ele.offsetY;
-        console.log("x span : " + x)
+        console.log("x span : " + x) 
         console.log("y span : " + y)
     });
 }
